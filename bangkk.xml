@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- moto g84 5G (bangkk) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_motorola_knoir" path="device/motorola/knoir" remote="halcyon-device" />
+    <project name="kernel_motorola_knoir" path="kernel/motorola/knoir" remote="halcyon-device" />
+
+    <project name="vendor_motorola_bangkk" path="vendor/motorola/bangkk" remote="halcyon-blobs" />
+    <project name="vendor_motorola_knoir" path="vendor/motorola/knoir" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_motorola" path="hardware/motorola" remote="halcyon" />
+</manifest>
