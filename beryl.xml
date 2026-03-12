@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Redmi Note 14 5G / 14 SE / POCO M7 Pro 5G (beryl) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_beryl" path="device/xiaomi/beryl" remote="halcyon-device" />
+    <project name="device_xiaomi_beryl-kernel" path="device/xiaomi/beryl-kernel" remote="halcyon-device" />
+    <project name="vendor_xiaomi_beryl" path="vendor/xiaomi/beryl" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="TracenPlayground/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="16.2" />
+    <project name="TracenPlayground/hardware_mediatek" path="hardware/mediatek" remote="github" revision="16.2" />
+    <project name="TracenPlayground/device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="16.2" />
+    <project name="techyminati/android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="github" revision="android-16-qpr2" />
+</manifest>
