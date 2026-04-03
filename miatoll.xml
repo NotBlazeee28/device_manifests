@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- POCO M2 Pro / Redmi Note 9S / 9 Pro / 9 Pro Max / 10 Lite (miatoll) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="halcyon-device" revision="16.2" />
+    <project name="kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="halcyon-device" revision="16.2" />
+
+    <project name="vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="halcyon-blobs" revision="16.2" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" revision="16.2" />
+    <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-23.2" />
+</manifest>
