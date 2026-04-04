@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Redmi Note 13 Pro 5G (garnet) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_garnet" path="device/xiaomi/garnet" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sm7435" path="kernel/xiaomi/sm7435" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sm7435-devicetrees" path="kernel/xiaomi/sm7435-devicetrees" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sm7435-modules" path="kernel/xiaomi/sm7435-modules" remote="halcyon-device" />
+    <project name="vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.2" />
+</manifest>
