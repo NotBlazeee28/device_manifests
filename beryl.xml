@@ -18,5 +18,4 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
 
-    <project name="MillenniumOSS/android_device_millennium_common-kernel" path="device/millennium/common-kernel" remote="github" revision="sixteen-qpr2" />
 </manifest>
